@@ -1,11 +1,13 @@
-body{
-    background-color: black;
-}
 
 *{
     padding: 0px;
     margin: 0px;
 }
+
+body{
+    background-color: black;
+}
+
 
 @font-face {
     font-family: Russo;
@@ -304,7 +306,7 @@ nav{
 }
 
 .maincards{
-    width: 25%;
+    width: 23%;
     height: 100%;
     background-color: white;
     border-radius: 15px;
