@@ -118,7 +118,7 @@ nav{
 }
 
 .about{
-    height: 410px;
+    height: 450px;
     width: 100%;
     background: url(./IMG/bg.png);
     background-size: cover;
@@ -251,7 +251,7 @@ nav{
 
 .main-ca{
     height: 100%;
-    width: 90%;
+    width: 80%;
     /* background-color: black; */
     text-align: center;
 }
@@ -304,7 +304,7 @@ nav{
 }
 
 .maincards{
-    width: 14%;
+    width: 2%;
     height: 100%;
     background-color: white;
     border-radius: 15px;
