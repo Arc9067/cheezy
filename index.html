@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./responsiveness.css">
+    <title>Cheezy Inu</title>
+</head>
+<body>
+    <nav>
+        <div class="inner-nav">
+            <div class="logo-cn"></div>
+            <div class="innernav-ul">
+                <ul>
+                    <a href="#"><li>About</li></a>
+                    <a href="#"><li>Tokenomics</li></a>
+                    <a href="#"><li>Roadmap</li></a>
+                    <a href="#"><li>Features</li></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="about">
+        <div class="inner-about">
+            <div class="inner-about-img"></div>
+            <div class="inner-about-txt">
+                <h3>Multi-utility BSC based token</h3>
+                <p>Cheezy Inu will interrupt the Decentralized space and pursue to become a known Meme in the BSC space. Dont miss the fomo before this Meme takes a flight. With a primary use case that will be developed further along the Road map were holder will be able to Stake/ Farm for a nice APY in return to our diamond Holders fligh on our very own platform.
+                </p>
+                <div class="link">
+                    <a href="#"><button>BUY</button></a>
+                    <a href="#"><button>CHART</button></a>
+                </div>
+        </div>
+    </section>
+
+    <section class="ca">
+        <h3>CONTRACT</h3>
+        <div class="mainc">
+            <div onclick="copyToClipboard('execCopy')" class="mainc-img"></div>
+            <div class="main-ca">
+                <p>0x000000000000000000000000000000000000</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="tokenomics">
+        <div class="inner-tokenomics">
+            <h3>TOKENOMICS</h3>
+            <p>15 Buy And Sell Tax</p>
+            <div class="maint">
+                <div class="maincards">
+                    <h3>5%</h3>
+                    <h3>MARKETING</h3>
+                </div>
+                <div class="maincards">
+                    <h3>2%</h3>
+                    <h3>STAKING & NFT</h3>
+                </div>
+                <div class="maincards">
+                    <h3>3%</h3>
+                    <h3>AUTO LP</h3>
+                </div>
+                <div class="maincards">
+                    <h3>1%</h3>
+                    <h3>DEV FEES</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function copyToClipboard(execCopy){
+            let val = "0x000000000000000000000000000000000000";
+            const selBox = document.createElement('textarea');
+            selBox.style.position = 'fixed';
+            selBox.style.left = '0';
+            selBox.style.top = '0';
+            selBox.style.opacity = '0';
+            selBox.value = val;
+            document.body.appendChild(selBox);
+            selBox.focus();
+            selBox.select();
+            document.execCommand('copy');
+            document.body.removeChild(selBox);
+            alert('you have copied the Contract Address of Cheezy Inu')
+        }
+    </script>
+</body>
+</html>
